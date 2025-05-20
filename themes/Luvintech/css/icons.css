@@ -1,0 +1,70 @@
+
+/* header */
+
+.main-menu .navbar-nav li.menu-item-type-custom a{
+    position: relative;
+    font-size: 0px; /* Esconde texto */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    padding: 0;
+    margin: 0 5px;
+}
+.main-menu .navbar-nav li.menu-item-type-custom a::before {
+    font-size: 24px;
+    font-family: "Font Awesome 5 Brands"; 
+    content: ""; /* Será substituído por regras específicas abaixo */
+    display: inline-block;
+    font-weight: 400;
+}
+
+/* footer */
+.footer-menu li a{ 
+    text-decoration: none;
+        position: relative;
+        text-indent: -9999px; /* Esconde o texto */
+        display: inline-block;
+        text-align: center;
+      }
+  
+  .footer-menu ul li a::before {
+    font-size: 20px;
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    position: absolute; 
+    left: 0;
+    right: 0;
+    text-indent: 0;
+    line-height: 40px;
+    margin: -6px 0 0 0.5em;
+  }
+
+
+  /* links dos sites e ícones */
+.footer-menu a[href*="facebook.com"]::before,
+.navbar-nav li.menu-item.menu-item a[href*="facebook.com"]::before {
+    content: "\f09a"; 
+}
+.footer-menu a[href*="instagram.com"]::before,
+.navbar-nav li.menu-item a[href*="instagram.com"]::before {
+    content: "\f16d"; 
+}
+.footer-menu li.menu-item a[href*="youtube.com"]::before,
+.navbar-nav li.menu-item a[href*="youtube.com"]::before {
+    content: "\f167";    
+}
+.footer-menu a[href*="spotfy.com"]::before,
+.navbar-nav li.menu-item a[href*="spotfy.com"]::before {
+    content: "\f1bc"; 
+}
+.footer-menu a[href*="soundcloud.com"]::before,
+.navbar-nav li.menu-item a[href*="soundcloud.com"]::before {
+    content: "\f1be"; 
+}
+
+
+
+
+

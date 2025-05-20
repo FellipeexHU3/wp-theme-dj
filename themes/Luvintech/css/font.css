@@ -1,0 +1,53 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+body, .inicio{
+  color:var(--cor-txt1);
+}
+.inicio{
+  font-size: 35px;
+}
+.inline {
+    display: inline-block; /* Ou inline, teste qual funciona melhor */
+    margin: 0 7px 0 2px; /* Opcional: remove margens padrão */
+    padding: 0; /* Opcional: remove padding padrão */
+    /* Adicione aqui seus outros estilos personalizados para os h3 */
+}
+body .cor-primaria{
+  color:var(--cor-primaria)!important;
+}
+.destaque {
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 4rem;
+  display: inline-block;
+}
+.sombra-cima{
+  cursor: pointer;
+  color: transparent;
+  transition: all 0.5s;
+  -webkit-text-stroke: 1px var(--cor-sombra5);
+  text-shadow: 1px -1px 0px var(--cor-primaria),
+    2px -2px 0px var(--cor-alerta),
+    4px -4px 0px var(--cor-sombra1),
+    5px -5px 0px var(--cor-info),
+    6px -6px 0px  var(--cor-primaria);
+  
+}
+.sombra-baixo{
+  cursor: pointer;
+  color: transparent;
+  transition: all 0.5s;
+  -webkit-text-stroke: 1px var(--cor-sombra5);
+  text-shadow: 1px -1px 0px var(--cor-primaria),
+    -2px 2px 0px var(--cor-alerta),
+    -4px 4px 0px var(--cor-sombra1),
+    -5px 5px 0px var(--cor-info),
+    -6px 6px 0px  var(--cor-primaria);
+}
+
+
+p, ul li a{
+  text-shadow: 10px 2px 4px var(--cor-txt2);
+  font-size: 1.15rem;
+}

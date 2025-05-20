@@ -1,0 +1,25 @@
+:root {
+    /* Cores Primárias */
+    --cor-primaria: #fbb938!important;
+    --cor-secundaria: #3784FA; 
+    --cor-accento: #A58C5B;
+  
+    /* Cores de Texto */
+    --cor-txt1: #fff; 
+    --cor-txt2: #000; 
+  
+    --cor-bg1: #000; 
+    --cor-bg2: #fff; 
+
+    
+    --cor-sucesso: #43FA37;
+    --cor-erro: #6F587A; 
+    --cor-alerta: #5137FA; 
+    --cor-info: #37FA9C; 
+    /* sombra */
+    --cor-sombra1: #FA8737;
+    --cor-sombra2: #CFA550;
+    --cor-sombra3: #A58C5B;
+    --cor-sombra4: #7A6F58;
+    --cor-sombra5: #504D47;
+}
